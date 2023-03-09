@@ -4,6 +4,11 @@
 
 @layer base{
     body {
-        @apply dark:bg-bgdark bg-white
+        @apply bg-white  dark:bg-bgdark
     }
+}
+
+body{
+    height: 100vh;
+    width: 100vw
 }

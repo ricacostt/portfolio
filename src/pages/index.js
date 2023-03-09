@@ -22,7 +22,7 @@ export default function Home() {
       <main className={styles.main}>
        
         <NavBar/>
-        <ToggleButton/>
+        {/* <ToggleButton/> */}
         <Homepage/>
         <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script>
       </main>
