@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
 import Homepage from '../../components/Homepage/Homepage'
 import NavBar from '../../components/NavBar/NavBar'
-import ToggleButton from '../../components/ToggleButton/ToggleButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,10 +17,9 @@ export default function Home() {
         
       </Head>
  
-      <main className={styles.main}>
+      <main >
        
         <NavBar/>
-        {/* <ToggleButton/> */}
         <Homepage/>
         <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script>
       </main>

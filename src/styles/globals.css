@@ -4,11 +4,14 @@
 
 @layer base{
     body {
-        @apply bg-white  dark:bg-bgdark
+        @apply bg-white dark:bg-bgdark 
+
     }
 }
 
 body{
     height: 100vh;
-    width: 100vw
+    width: 100vw;
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding: 2rem;
 }
