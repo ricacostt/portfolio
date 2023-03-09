@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function NavBar() {
   return (
-    <div className="navbar">
+    <div className="navbar max-w-3mxl p-6 xsm:p-10">
   <div className="flex-1">
   <div className='w-4 h-4 rounded-sm mr-2 bg-textlight'></div>
     <Link href='/' className="text-base xsm:text-xl text-textlightdark:text-textdark">federicacostantino</Link>
