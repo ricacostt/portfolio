@@ -23,12 +23,14 @@ module.exports = {
       buttontextdark: "#E3EBF3",
       buttonsecondarydark: "#535B8B",
     },
-    // screens: {
-    //   sm: "320px",
-    //   md: "390px",
-    //   lg: "1280px",
-    //   xl: "1728px",
-    // },
+  screens: {
+  'xsm': "440px",
+  'ms': '640px',
+  'md': '768px',
+  'lg':'1024px',
+  'xl': '1280px',
+  '2xl': '1536px'
+   },
     fontSize:{
       xsm: '0.625rem',
       sm: '0.75rem',
