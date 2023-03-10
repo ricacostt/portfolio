@@ -13,8 +13,8 @@ function NavBar() {
   <div className="flex flex-row gap-2 sm:gap-6">
     {/* <ul className="menu menu-horizontal"> */}
       {/* <li> */} 
-      <a><button type="button" className=" text-buttonprimarylight dark:text-textdark border-2 text-xsm tracking-normal font-bold border-buttonprimarylight dark:border-buttonsecondarylight pr-1 pl-1 pt-1 pb-1 rounded-full
-       sm:text-buttonprimarylight sm:dark:text-textdark sm:border-2 sm:text-sm sm:tracking-wider sm:font-bold sm:border-buttonprimarylight sm:dark:border-buttonsecondarylight sm:pr-2 sm:pl-2 sm:pt-1 sm:pb-1 sm:rounded-full">RESUME</button>
+      <a><button type="button" className=" text-buttonprimarylight dark:text-textdark border-2 text-xsm tracking-normal font-bold border-buttonprimarylight dark:border-buttonsecondarylight pr-2 pl-2 pt-1 pb-1 rounded-full
+      ms:text-sm ms:tracking-wider">RESUME</button>
 </a>
 
      <ToggleButton/>
