@@ -3,10 +3,10 @@ import React from "react";
 function Homepage() {
   return (
     <>
-      <div className="flex flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-4">
-        <div className="leftcol flex flex-col gap-8">
+      <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-4  ">
+        <div className="leftcol flex flex-col gap-4 md:gap-8 mb-8">
           <div className="cit flex">
-            <h1 className="text-textlight dark:text-textdark text-3xl italic ">
+            <h1 className="text-textlight dark:text-textdark text-xl xsm:text-3xl italic ">
               &quot;But the eyes are blind. One must look with the heart&quot;
             </h1>
           </div>
@@ -56,7 +56,7 @@ function Homepage() {
         </div>
       <div className="rightcol flex flex-col gap-10">
         <div className="about">
-          <p className="text-textlight dark:text-textdark text-xl">
+          <p className="text-textlight dark:text-textdark text-base xsm:text-xl">
             👋🏻 Hi I’m Federica, 
             <br/>I’m a woman, an economist turned front-end
             developer. 
@@ -70,7 +70,7 @@ function Homepage() {
             coding, I’m developing my next pasta recipe.
           </p>
         </div>
-        <div className="contact text-textlight dark:text-textdark font-bold underline text-xl">
+        <div className="contact text-textlight dark:text-textdark font-bold underline text-base xsm:text-xl">
           <a href="mailto:ricacostt@gmail.com">Get in touch.</a>
         </div>
       </div>

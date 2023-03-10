@@ -33,15 +33,14 @@ module.exports = {
   '3mxl': '1120px'
    },
     fontSize:{
-      xsm: '0.625rem',
-      sm: '0.75rem',
-      base: '1rem',
-      xl: '1.5rem',
-      '2xl': '2rem',
-      '3xl': '2.5rem',
-      '4xl': '5rem',
-      '5xl': '4rem',
-      '6xl': '8rem'
+      xsm: '0.625rem', //10px
+      sm: '0.75rem', // 12px
+      base: '1rem', //16px
+      xl: '1.5rem', //24px
+      '2xl': '2rem', //32px
+      '3xl': '2.5rem', //40px
+      '4xl': '5rem', //80px
+      '5xl': '4rem', //64px
     },
     extend: {},
   },
