@@ -11,7 +11,8 @@ function Homepage() {
             </h1>
           </div>
           <div className="flex flex-row flex-wrap gap-4 buttons">
-            <a>
+            <a href="https://github.com/ricacostt" target="_blank"
+              rel="noopener noreferrer">
               <button
                 type="button"
                 className=" text-buttontextlight dark:text-textdark bg-buttonsecondarylight 
@@ -21,7 +22,8 @@ function Homepage() {
                 GITHUB
               </button>
             </a>
-            <a>
+            <a href="https://www.linkedin.com/in/federica-costantino/" target="_blank"
+              rel="noopener noreferrer">
               <button
                 type="button"
                 className=" text-buttontextlight dark:text-textdark bg-buttonsecondarylight 
@@ -31,7 +33,8 @@ function Homepage() {
                 LINKEDIN
               </button>
             </a>
-            <a>
+            <a href="https://twitter.com/ricacostt" target="_blank"
+              rel="noopener noreferrer">
               <button
                 type="button"
                 className=" text-buttontextlight dark:text-textdark bg-buttonsecondarylight 

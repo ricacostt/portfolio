@@ -13,7 +13,7 @@ function NavBar() {
   <div className="flex flex-row gap-2 ms:gap-6">
     {/* <ul className="menu menu-horizontal"> */}
       {/* <li> */} 
-      <a href='https://drive.google.com/file/d/1JGhA-MtXegVcyltlUChD9_eKyhkRoxIN/view?usp=sharing' target="_blank"
+      <a href='https://www.dropbox.com/s/j71qp9gj0uu0uo8/FedericaCostantinoCV.pdf?dl=0' target="_blank"
               rel="noopener noreferrer" className=" text-buttonprimarylight dark:text-textdark border-2 text-xsm tracking-normal font-bold border-buttonprimarylight dark:border-buttonsecondarylight pr-2 pl-2 pt-1 pb-1 rounded-full
       ms:text-sm ms:tracking-wider">RESUME
 </a>
