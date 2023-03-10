@@ -1,10 +1,12 @@
 import React from "react";
+import Work from "../Work/Work";
+import Link from "next/link";
 
 function Homepage() {
   return (
     <>
-      <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-4  ">
-        <div className="leftcol flex flex-col gap-4 md:gap-8 mb-8">
+      <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-4 ">
+        <div className="leftcol flex flex-col gap-4 md:gap-8 mb-8 ">
           <div className="cit flex">
             <h1 className="text-textlight dark:text-textdark text-xl xsm:text-3xl italic ">
               &quot;But the eyes are blind. One must look with the heart&quot;
@@ -44,7 +46,7 @@ function Homepage() {
                 TWITTER
               </button>
             </a>
-            <a>
+            <Link href="#work" >
               <button
                 type="button"
                 className=" text-buttonsecondarylight dark:text-bgdark bg-buttonprimarylight 
@@ -54,7 +56,7 @@ function Homepage() {
               >
                 WORK.
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       <div className="rightcol flex flex-col gap-10">
@@ -77,6 +79,9 @@ function Homepage() {
           <a href="mailto:ricacostt@gmail.com">Get in touch.</a>
         </div>
       </div>
+      </div>
+      <div>
+        <Work/>
       </div>
     </>
   );
