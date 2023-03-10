@@ -43,7 +43,11 @@ module.exports = {
       '5xl': '4rem', //64px
       '6xl': '3.5rem' //56px
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'stokka': "url('/public/stokka.png)",
+      }
+    },
   },
   plugins: [require("flowbite/plugin"), require("daisyui")],
 };
