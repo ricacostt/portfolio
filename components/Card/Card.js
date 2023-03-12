@@ -17,11 +17,12 @@ function Card() {
         <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path></svg>
     </a>
 </div> */}
-<div className="card image-full max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-  <figure><Image src="/stokka.png" alt="stokka landing page" width="400" height='20' /></figure>
+<div className="flex flex-row justify-center card image-full max-w-sm border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <figure><Image src="/stokka.png" alt="stokka landing page" width="400" height='100' /></figure>
   <div className="card-body ">
     <h2 className="text-2xl font-semibold tracking-tight  text-textdark">Stokka</h2>
     <p className='text-textdark' >A mobile-first website where the user can filter board games based on their needs and preferences and can be part of an active community.</p>
+    <div className='flex flex-row text-xsm'><p>Javascript</p><p>Node.js</p><p>React.js</p><p>Next.js</p><p>TailwindCSS</p><p>Auth0</p></div>
     <div className='card-actions justify-start'>
     <a href="https://stokka.netlify.app/" target="_blank"
               rel="noopener noreferrer" className="inline-flex items-center text-textdark hover:underline text-base">
