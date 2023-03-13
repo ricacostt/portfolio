@@ -2,6 +2,7 @@ import React from "react";
 import Work from "../Work/Work";
 import Link from "next/link";
 import Image from "next/image";
+import Footer from "../Footer/Footer";
 
 function Homepage() {
   return (
@@ -10,7 +11,7 @@ function Homepage() {
         <div className="leftcol flex flex-col gap-4 md:gap-8 mb-8 ">
           <div className="cit flex">
             <h1 className="text-textlight dark:text-textdark text-xl xsm:text-3xl italic ">
-              &quot;But the eyes are blind. One must look with the heart&quot;
+              &quot;But the eyes are blind. One must look with the heart.&quot;
             </h1>
           </div>
           <div className="flex flex-row flex-wrap gap-4 buttons">
@@ -83,6 +84,7 @@ function Homepage() {
       </div>
       <div>
         <Work/>
+        <Footer/>
       </div>
     </>
   );

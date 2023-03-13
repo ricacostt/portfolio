@@ -6,12 +6,12 @@ function Card() {
     <>
     <div className="flex flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto justify-start gap-0 md:gap-10 overflow-auto ">
     
-      <div className="flex flex-row justify-center card scale-75 xsm:scale-90 md:scale-100 max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark shadow bg-buttonsecondarylight dark:bg-buttonsecondarydark origin-top-left	">
+      <div className="flex flex-row justify-center card scale-75 xsm:scale-90 md:scale-100 max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark shadow bg-buttonsecondarylight dark:bg-bgcard origin-top-left	">
         <div className="card-body gap-4">
           <a  href="https://stokka.netlify.app/"
               target="_blank"
               rel="noopener noreferrer">
-          <h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-buttonprimarylight dark:hover:text-textaccent"> Stokka </h2> </a>
+          <h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-buttontextlight dark:hover:text-textaccent"> Stokka </h2> </a>
           <p className=" text-textlight dark:text-textdark">
             A mobile-first website where the user can filter board games based
             on their needs and preferences and can be part of an active
@@ -31,11 +31,11 @@ function Card() {
               href="https://stokka.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttonprimarylight stroke-textlight  dark:stroke-textdark hover:stroke-buttonprimarylight dark:hover:text-textaccent"
+              className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
             >
               Discover
               <svg
-                className=" w-5 h-5 ml-2 stroke-textlight dark:stroke-textdark hover:stroke-buttonprimarylight dark:hover:stroke-textaccent"
+                className=" w-5 h-5 ml-2 stroke-textlight dark:stroke-textdark  hover:stroke-buttontextlight dark:hover:stroke-textaccent"
                 xmlns="http://www.w3.org/2000/svg"
                 // width="20"
                 // height="20"
@@ -54,7 +54,7 @@ function Card() {
               href="https://stokka.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttonprimarylight dark:hover:text-textaccent"
+              className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttontextlight dark:hover:text-textaccent"
             >
               Live Demo
               <svg
@@ -72,13 +72,13 @@ function Card() {
       </div>
       
       {/* RubberyDucky */}
-      <div className="flex flex-row justify-center card max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark  shadow bg-buttonsecondarylight dark:bg-buttonsecondarydark  scale-75 xsm:scale-90 md:scale-100 origin-top-left">
+      <div className="flex flex-row justify-center card max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark  shadow bg-buttonsecondarylight dark:bg-bgcard  scale-75 xsm:scale-90 md:scale-100 origin-top-left">
         {/* <figure><Image src="/ligthstokka.png" alt="stokka landing page" width="200" height='10' /></figure> */}
         <div className="card-body gap-4">
           <a  href="https://granchio4ducky.netlify.app/"
               target="_blank"
               rel="noopener noreferrer">
-          <h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-buttonprimarylight dark:hover:text-textaccent"> Rubbery Ducky </h2> </a>
+          <h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-buttontextlight dark:hover:text-textaccent"> Rubbery Ducky </h2> </a>
           <p className=" text-textlight dark:text-textdark">
           Rubbery Ducky is a platform where you can read, publish and comment completely anonymously. It is a blog aimed at allowing people to express problems, feelings, frustrations or just to have fun among us bootcamper peers. It also has an extra function that has the sole purpose of giving you feedback based on your mood; laughter is never enough!
           </p>
@@ -94,11 +94,11 @@ function Card() {
               href="https://github.com/SchoolOfCode/bc13_w9_project-frontend-team-granchio"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttonprimarylight  stroke-textlight  dark:stroke-textdark hover:stroke-buttonprimarylight dark:hover:text-textaccent"
+              className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttontextlight stroke-buttontextlight  dark:stroke-textdark hover:stroke-buttontextlight dark:hover:text-textaccent"
             >
               Discover
               <svg
-                className=" w-5 h-5 ml-2 stroke-textlight dark:stroke-textdark hover:stroke-buttonprimarylight dark:hover:stroke-textaccent"
+                className=" w-5 h-5 ml-2 stroke-textlight dark:stroke-textdark hover:stroke-buttontextlight dark:hover:stroke-textaccent"
                 xmlns="http://www.w3.org/2000/svg"
                 // width="20"
                 // height="20"
@@ -117,7 +117,7 @@ function Card() {
               href="https://granchio4ducky.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttonprimarylight dark:hover:text-textaccent"
+              className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttontextlight dark:hover:text-textaccent"
             >
               Live Demo
               <svg
@@ -137,7 +137,7 @@ function Card() {
       
     </div>
     <div>
-    <div className="carousel carousel-center rounded-box p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto">
+    {/* <div className="carousel carousel-center rounded-box p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto">
   <div className="carousel-item">
   
     <Image src="/seasvg.svg" alt="Pizza" width='100' height='100' />
@@ -172,7 +172,7 @@ function Card() {
   <div className="carousel-item">
   <Image src="/seasvg.svg" alt="Pizza" width='100' height='100' />
   </div> 
-</div>
+</div> */}
     </div>
     </>
   );

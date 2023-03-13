@@ -16,6 +16,7 @@ module.exports = {
       bglightopa: 'rgba(255,255,255,0.9)',
       bgdark: "#162440",
       bgdarkopa: 'rgba(22,36,64,0.9)',
+      bgcard: '#111D33',
       textlight: "#46465A",
       textdark: "#E3EBF3",
       buttonprimarylight: "#313CBD",
@@ -25,7 +26,7 @@ module.exports = {
       buttontextdark: "#E3EBF3",
       buttonsecondarydark: "#535B8B",
       cardbgdark: "rgba(79,179,141,0.1)",
-      textaccent: '#313CBD'
+      textaccent: '#4A79D9'
     },
   screens: {
   'xsm': "498px",
