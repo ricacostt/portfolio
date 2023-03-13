@@ -78,7 +78,8 @@ function Homepage() {
           </p>
         </div>
         <div className="contact text-textlight dark:text-textdark font-bold underline text-base xsm:text-xl hover:text-textaccent dark:hover:text-textaccent">
-          <a href="mailto:ricacostt@gmail.com">Get in touch.</a>
+          <a href="mailto:ricacostt@gmail.com" target="_blank"
+              rel="noopener noreferrer">Get in touch.</a>
         </div>
       </div>
       </div>
