@@ -4,7 +4,7 @@ import Image from "next/image";
 function Card() {
   return (
     <div className="flex flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto justify-start gap-10 overflow-auto">
-      <div className="flex flex-row justify-center card max-w-sm border border-2-buttonsecondarydark  shadow bg-buttonsecondarylight dark:bg-cardbgdark">
+      <div className="flex flex-row justify-center card max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark shadow bg-buttonsecondarylight dark:bg-cardbgdark">
         <div className="card-body gap-4">
           <a  href="https://stokka.netlify.app/"
               target="_blank"
@@ -70,7 +70,7 @@ function Card() {
       </div>
       
       {/* RubberyDucky */}
-      <div className="flex flex-row justify-center card max-w-sm border border-2-buttonsecondarydark  shadow bg-buttonsecondarylight dark:bg-cardbgdark">
+      <div className="flex flex-row justify-center card max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark  shadow bg-buttonsecondarylight dark:bg-cardbgdark">
         {/* <figure><Image src="/ligthstokka.png" alt="stokka landing page" width="200" height='10' /></figure> */}
         <div className="card-body gap-4">
           <a  href="https://granchio4ducky.netlify.app/"
@@ -130,6 +130,7 @@ function Card() {
             </a>
           </div>
         </div>
+        
       </div>
       
     </div>
