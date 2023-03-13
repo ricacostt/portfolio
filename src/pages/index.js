@@ -13,7 +13,7 @@ export default function Home() {
         <title>Federica Costantino</title>
         <meta name="description" content="portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/seasvg.svg" />
+        <link rel="icon" href="/logo1.svg" />
         
       </Head>
  
