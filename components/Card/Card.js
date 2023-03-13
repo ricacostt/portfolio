@@ -15,7 +15,7 @@ function Card() {
             on their needs and preferences and can be part of an active
             community.
           </p>
-          <div className="flex flex-row flex-wrap text-xsm gap-2 pb-4">
+          <div className="flex flex-row flex-wrap text-xsm gap-2 pb-4 text-textlight dark:text-textdark">
             <p>Javascript</p>
             <p>Node.js</p>
             <p>React.js</p>
@@ -80,7 +80,7 @@ function Card() {
           <p className=" text-textlight dark:text-textdark">
           Rubbery Ducky is a platform where you can read, publish and comment completely anonymously. It is a blog aimed at allowing people to express problems, feelings, frustrations or just to have fun among us bootcamper peers. It also has an extra function that has the sole purpose of giving you feedback based on your mood; laughter is never enough!
           </p>
-          <div className="flex flex-row flex-wrap text-xsm gap-2 pb-4">
+          <div className="flex flex-row flex-wrap text-xsm gap-2 pb-4 text-textlight dark:text-textdark">
             <p>HTML</p>
             <p>CSS</p>
             <p>Javascript</p>
