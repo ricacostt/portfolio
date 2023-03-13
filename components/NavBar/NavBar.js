@@ -12,7 +12,7 @@ function NavBar() {
   
     <Image className='w-6 h-6 xsm:w-10 xsm:h-10' src='/logo1.svg' width='40' height='40' alt='logo'/>
 
-    <Link href='/' className="text-sm xsm:text-xl text-textlight dark:text-textdark">federicacostantino</Link>
+    <Link href='' className="text-sm xsm:text-xl text-textlight dark:text-textdark">federicacostantino</Link>
   </div>
   <div className="flex flex-row gap-4 ms:gap-6">
    
