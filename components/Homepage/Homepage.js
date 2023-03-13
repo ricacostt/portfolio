@@ -1,6 +1,7 @@
 import React from "react";
 import Work from "../Work/Work";
 import Link from "next/link";
+import Image from "next/image";
 
 function Homepage() {
   return (
@@ -75,7 +76,7 @@ function Homepage() {
             coding, I’m developing my next pasta recipe.
           </p>
         </div>
-        <div className="contact text-textlight dark:text-textdark font-bold underline text-base xsm:text-xl">
+        <div className="contact text-textlight dark:text-textdark font-bold underline text-base xsm:text-xl hover:text-textaccent dark:hover:text-textaccent">
           <a href="mailto:ricacostt@gmail.com">Get in touch.</a>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import ToggleButton from '../ToggleButton/ToggleButton'
 import Link from "next/link";
+import Image from 'next/image';
 
 
 function NavBar() {
@@ -8,7 +9,9 @@ function NavBar() {
     <div style={{position:'sticky', top: '0px'}} className="flex justify-center navbar p-6 xsm:p-10 max-w-screen-xl ml-auto mr-auto bg-bglightopa dark:bg-bgdarkopa
 ">
   <div className="flex-1">
-  <div className='w-4 h-4 rounded-sm mr-2 bg-textlight'></div>
+  
+    <Image className='w-6 h-6 xsm:w-10 xsm:h-10' src='/logo1.svg' width='40' height='40' alt='logo'/>
+
     <Link href='/' className="text-sm xsm:text-xl text-textlight dark:text-textdark">federicacostantino</Link>
   </div>
   <div className="flex flex-row gap-4 ms:gap-6">

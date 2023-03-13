@@ -25,7 +25,7 @@ module.exports = {
       buttontextdark: "#E3EBF3",
       buttonsecondarydark: "#535B8B",
       cardbgdark: "rgba(79,179,141,0.1)",
-      textaccent: 'rgb(0,251,236)'
+      textaccent: '#313CBD'
     },
   screens: {
   'xsm': "498px",
