@@ -3,8 +3,10 @@ import Image from "next/image";
 
 function Card() {
   return (
+    <>
     <div className="flex flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto justify-start gap-0 md:gap-10 overflow-auto ">
-      <div className="flex flex-row justify-center card scale-90 md:scale-100 max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark shadow bg-buttonsecondarylight dark:bg-cardbgdark origin-top-left	">
+    
+      <div className="flex flex-row justify-center card scale-75 xsm:scale-90 md:scale-100 max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark shadow bg-buttonsecondarylight dark:bg-cardbgdark origin-top-left	">
         <div className="card-body gap-4">
           <a  href="https://stokka.netlify.app/"
               target="_blank"
@@ -70,7 +72,7 @@ function Card() {
       </div>
       
       {/* RubberyDucky */}
-      <div className="flex flex-row justify-center card max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark  shadow bg-buttonsecondarylight dark:bg-cardbgdark scale-90 md:scale-100 origin-top-left">
+      <div className="flex flex-row justify-center card max-w-sm shrink-0 overflow-scroll border border-2-buttonsecondarydark  shadow bg-buttonsecondarylight dark:bg-cardbgdark  scale-75 xsm:scale-90 md:scale-100 origin-top-left">
         {/* <figure><Image src="/ligthstokka.png" alt="stokka landing page" width="200" height='10' /></figure> */}
         <div className="card-body gap-4">
           <a  href="https://granchio4ducky.netlify.app/"
@@ -134,6 +136,36 @@ function Card() {
       </div>
       
     </div>
+    <div>
+    <div className="carousel carousel-center rounded-box p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto">
+  <div className="carousel-item">
+  
+    <Image src="/seasvg.svg" alt="Pizza" width='200' height='200' />
+  </div> 
+  <div className="carousel-item">
+  <Image src="/seasvg.svg" alt="Pizza" width='200' height='200' />
+  </div> 
+  <div className="carousel-item">
+  <Image src="/seasvg.svg" alt="Pizza" width='200' height='200' />
+  </div> 
+  <div className="carousel-item">
+  <Image src="/seasvg.svg" alt="Pizza" width='200' height='200' />
+  </div> 
+  <div className="carousel-item">
+  <Image src="/seasvg.svg" alt="Pizza" width='200' height='200' />
+  </div> 
+  <div className="carousel-item">
+  <Image src="/seasvg.svg" alt="Pizza" width='200' height='200' />
+  </div> 
+  <div className="carousel-item">
+  <Image src="/seasvg.svg" alt="Pizza" width='200' height='200' />
+  </div> 
+  <div className="carousel-item">
+  <Image src="/seasvg.svg" alt="Pizza" width='200' height='200' />
+  </div> 
+</div>
+    </div>
+    </>
   );
 }
 

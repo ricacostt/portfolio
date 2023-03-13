@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function NavBar() {
   return (
-    <div style={{position:'sticky', top: '0px'}} className="flex justify-center navbar p-6 xsm:p-10 max-w-screen-xl ml-auto mr-auto bg-bglight dark:bg-bgdark
+    <div style={{position:'sticky', top: '0px'}} className="flex justify-center navbar p-6 xsm:p-10 max-w-screen-xl ml-auto mr-auto bg-bglightopa dark:bg-bgdarkopa
 ">
   <div className="flex-1">
   <div className='w-4 h-4 rounded-sm mr-2 bg-textlight'></div>

@@ -13,7 +13,9 @@ module.exports = {
   theme: {
     colors: {
       bglight: "#ffffff",
+      bglightopa: 'rgba(255,255,255,0.9)',
       bgdark: "#162440",
+      bgdarkopa: 'rgba(22,36,64,0.9)',
       textlight: "#46465A",
       textdark: "#E3EBF3",
       buttonprimarylight: "#313CBD",
