@@ -10,7 +10,7 @@ function Card() {
           <a  href="https://stokka.netlify.app/"
               target="_blank"
               rel="noopener noreferrer">
-          <h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-buttontextlight dark:hover:text-textaccent"> Stokka </h2> </a>
+          <span className="text-buttontextlight dark:text-textaccent">Mobile Web Application</span><h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-buttontextlight dark:hover:text-textaccent"> Stokka </h2> </a>
           <p className=" text-textlight dark:text-textdark">
             A mobile-first website where the user can filter board games based
             on their needs and preferences and can be part of an active
@@ -27,7 +27,7 @@ function Card() {
           <div className="card-actions justify-start gap-10">
             {/* <div className='card-actions justify-start '> */}
             <a
-              href="https://stokka.netlify.app/"
+              href="https://github.com/SchoolOfCode/bc13_final-project_front-end-oh-shift"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
@@ -77,6 +77,7 @@ function Card() {
           <a  href="https://granchio4ducky.netlify.app/"
               target="_blank"
               rel="noopener noreferrer">
+              <span className="text-buttontextlight dark:text-textaccent">Web Application</span>
           <h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-buttontextlight dark:hover:text-textaccent"> Rubbery Ducky </h2> </a>
           <p className=" text-textlight dark:text-textdark">
           Rubbery Ducky is a platform where you can read, publish and comment completely anonymously. It is a blog aimed at allowing people to express problems, feelings, frustrations or just to have fun among us bootcamper peers. It also has an extra function that has the sole purpose of giving you feedback based on your mood; laughter is never enough!

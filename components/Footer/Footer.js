@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
 
-<footer className="p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto bg-bglight dark:bg-bgdark rounded-lg shadow md:flex md:items-center md:justify-between text-textlight dark:text-textdark">
+<footer className="p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto bg-bglight dark:bg-bgdark md:flex md:items-center md:justify-between text-textlight dark:text-textdark">
     <p className="text-sm sm:text-center">© 2023 | <span className='text-buttontextlight dark:text-textaccent'>Federica Costantino</span>
     </p>
     <ul className="flex flex-wrap items-center mt-3 text-sm sm:mt-0 ">
