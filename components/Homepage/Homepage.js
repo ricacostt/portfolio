@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 function Homepage() {
   return (
     <>
-      <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-4 ">
+      <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-4">
         <div className="leftcol flex flex-col gap-4 md:gap-8 mb-8 ">
           <div className="cit flex">
             <h1 className="text-textlight dark:text-textdark text-xl xsm:text-3xl italic ">
