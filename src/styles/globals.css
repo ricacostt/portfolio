@@ -14,6 +14,11 @@ body{
     width: 100vw; */
     font-family: 'Hanken Grotesk', sans-serif;
     /* padding: 0.5rem 2rem; */
+    background-size: 126px;
+  background-image:
+    linear-gradient(to right, rgba(40,60,189,0.1) 1px, transparent 1px),
+    linear-gradient(to bottom,rgba(40,60,189,0.1), transparent 1px);
+
    
     
 }

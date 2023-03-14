@@ -1,7 +1,6 @@
 import React from "react";
 import Work from "../Work/Work";
 import Link from "next/link";
-import Image from "next/image";
 import Footer from "../Footer/Footer";
 
 function Homepage() {
@@ -14,7 +13,7 @@ function Homepage() {
               &quot;But the eyes are blind. One must look with the heart.&quot;
             </h1>
           </div>
-          <div className="flex flex-row flex-wrap gap-4 buttons">
+          <div className="flex flex-row flex-wrap gap-5 buttons">
             <a href="https://github.com/ricacostt" target="_blank"
               rel="noopener noreferrer">
               <button
@@ -48,7 +47,19 @@ function Homepage() {
                 TWITTER
               </button>
             </a>
-            <Link href="#work" >
+            <a href="https://www.dropbox.com/s/j71qp9gj0uu0uo8/FedericaCostantinoCV.pdf?dl=0" target="_blank"
+              rel="noopener noreferrer">
+              <button
+                type="button"
+                className="text-buttonsecondarylight dark:text-bgdark bg-buttonprimarylight 
+                dark:bg-buttonprimarydark
+                text-xsm tracking-normal font-bold pr-2 pl-2 pt-1 pb-1 rounded-full
+       sm:text-sm sm:tracking-wider"
+              >
+                RESUME
+              </button>
+            </a>
+            {/* <Link href="#work" >
               <button
                 type="button"
                 className=" text-buttonsecondarylight dark:text-bgdark bg-buttonprimarylight 
@@ -58,7 +69,18 @@ function Homepage() {
               >
                 WORK.
               </button>
-            </Link>
+            </Link> */}
+            {/* <a href="https://www.dropbox.com/s/j71qp9gj0uu0uo8/FedericaCostantinoCV.pdf?dl=0" target="_blank"
+              rel="noopener noreferrer">
+              <button
+                type="button"
+                className=" text-buttontextlight dark:text-textdark border-2 border-buttonprimarylight
+                dark:border-buttonprimarydark text-xsm tracking-normal font-bold pr-2 pl-2 pt-1 pb-1 rounded-3xl
+  sm:text-sm sm:tracking-wider"
+              >
+                RESUME
+              </button>
+            </a> */}
           </div>
         </div>
       <div className="rightcol flex flex-col gap-10">
