@@ -5,7 +5,6 @@ function Card() {
     <>
       {/* -----------------start STOKKA */}
       <div className="flex flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto justify-start gap-0 md:gap-10 overflow-auto ">
-
         <div className="flex flex-row justify-center card scale-75 xsm:scale-90 md:scale-100 max-w-sm shrink-0 shadow bg-buttonsecondarylight dark:bg-bgcard origin-top-left border border-buttonprimarydark	dark:border-bgdarkopa">
           <div className="card-body gap-4">
             <a
@@ -180,13 +179,16 @@ function Card() {
               choice.
             </p>
             <div className="flex flex-row flex-wrap text-xsm gap-2 pb-4 text-textlight dark:text-textdark">
-
               <p>HTML</p>
               <p>CSS</p>
               <p>Typescript</p>
               <p>React.js</p>
-              <a className='hover:underline hover:text-buttontextlight dark:hover:text-textaccent' href='https://openweathermap.org/api'><p>Weather API</p></a>
-
+              <a
+                className="hover:underline hover:text-buttontextlight dark:hover:text-textaccent"
+                href="https://openweathermap.org/api"
+              >
+                <p>Weather API</p>
+              </a>
             </div>
             <div className="card-actions justify-start gap-10">
               <a
@@ -214,7 +216,7 @@ function Card() {
           </div>
         </div>
         {/* -----------------end Weather */}
-                {/* -----------------start Portfolio */}
+        {/* -----------------start Portfolio */}
 
         <div className="flex flex-row justify-center card scale-75 xsm:scale-90 md:scale-100 max-w-sm shrink-0 shadow bg-buttonsecondarylight dark:bg-bgcard origin-top-left border border-buttonprimarydark	dark:border-bgdarkopa">
           <div className="card-body gap-4">
@@ -284,9 +286,9 @@ function Card() {
             </div>
           </div>
         </div>
-         {/* -----------------end Portfolio */}
-          {/* -----------------start Gnews */}
-          <div className="flex flex-row justify-center card scale-75 xsm:scale-90 md:scale-100 max-w-sm shrink-0 shadow bg-buttonsecondarylight dark:bg-bgcard origin-top-left border border-buttonprimarydark	dark:border-bgdarkopa">
+        {/* -----------------end Portfolio */}
+        {/* -----------------start Gnews */}
+        <div className="flex flex-row justify-center card scale-75 xsm:scale-90 md:scale-100 max-w-sm shrink-0 shadow bg-buttonsecondarylight dark:bg-bgcard origin-top-left border border-buttonprimarydark	dark:border-bgdarkopa">
           <div className="card-body gap-4">
             <a
               href=" https://news-ricacostt.netlify.app/"
@@ -302,11 +304,19 @@ function Card() {
               </h2>{" "}
             </a>
             <p className=" text-textlight dark:text-textdark">
-              A fast news website that includes a collection of the current trending news in english, from all over the world and of all categories.
-The search bar allows you to search for news items of interest to you, just enter a keyword (ex. India) to receive all the news items where that keyword is present.
+              A fast news website that includes a collection of the current
+              trending news in english, from all over the world and of all
+              categories. The search bar allows you to search for news items of
+              interest to you, just enter a keyword (ex. India) to receive all
+              the news items where that keyword is present.
             </p>
             <div className="flex flex-row flex-wrap text-xsm gap-2 pb-4 text-textlight dark:text-textdark">
-            <a className='hover:underline hover:text-buttontextlight dark:hover:text-textaccent' href='https://gnews.io/'><p>GNews API</p></a>
+              <a
+                className="hover:underline hover:text-buttontextlight dark:hover:text-textaccent"
+                href="https://gnews.io/"
+              >
+                <p>GNews API</p>
+              </a>
               <p>Javascript</p>
               <p>React.js</p>
               <p>TailwindCSS</p>
@@ -356,7 +366,14 @@ The search bar allows you to search for news items of interest to you, just ente
             </div>
           </div>
         </div>
-          {/* -----------------end Gnews */}
+        {/* -----------------end Gnews */}
+        {/* -----------------start 100dayschallenge */}
+
+        {/* -----------------end 100dayschallenge */}
+        {/* -----------------to do react/typescript? */}
+        {/* -----------------code wars challenge */}
+        {/* -----------------cocktail */}
+        {/* -----------------rock paper scissors */}
       </div>
     </>
   );

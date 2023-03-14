@@ -9,6 +9,7 @@ function Footer() {
     <p className="text-sm sm:text-center">© 2023 | <span className='text-buttontextlight dark:text-textaccent'>Federica Costantino</span>
     </p>
     <ul className="flex flex-wrap items-center mt-3 text-sm sm:mt-0 ">
+ 
         <li className='hover:text-buttontextlight dark:hover:text-textaccent'>
             <a href="https://github.com/ricacostt" target="_blank"
               rel="noopener noreferrer" className="mr-4 hover:underline md:mr-6 ">Github</a>
