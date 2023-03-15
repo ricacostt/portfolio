@@ -43,6 +43,19 @@ function Work() {
             "https://github.com/SchoolOfCode/bc13_w9_project-frontend-team-granchio"
           }
         />
+         <Card
+          appType={"UI/UX Mobile Application"}
+          appName={"GrabGo"}
+          description={
+            "GrabGo mobile app aims to simplify the food ordering process for a large fast food chain, allowing users to easily place orders for eat-in or pick-up. With a user-friendly interface and intuitive design, our target users are busy individuals who want to quickly order and pay their favorite fast food items without any hassle."
+          }
+          tech1={"User Research"}
+          tech2={"Digital Wireframes"}
+          tech3={"Prototyping"}
+          tech4={"Usability Testing"}
+         figma={'https://www.figma.com/proto/Rnmtz0pmwKAd4heQzCoHaD/Mobileapp---prototype?page-id=18%3A862&node-id=76%3A218&viewport=289%2C332%2C0.2&scaling=scale-down&starting-point-node-id=76%3A218'}
+         presentation={'https://docs.google.com/presentation/d/1rPdY_OPrYQjvtYrEP4scR4lzHNF2n1iA0jSdg67SD6Y/edit?usp=sharing'}
+        />
         <Card
           href={
             "https://github.com/SchoolOfCode/bc13_w12d5_hackathon_react-typescript-rica-greg-room50"
@@ -63,7 +76,6 @@ function Work() {
           }
         />
         <Card
-          href={"https://federicacostantino.netlify.app/"}
           appType={"Personal Website"}
           appName={"Portfolio"}
           description={"A little bit about me & collection of my work."}
