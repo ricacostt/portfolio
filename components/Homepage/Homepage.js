@@ -88,13 +88,13 @@ function Homepage() {
         <div className="about">
           <p className="text-textlight dark:text-textdark text-base xsm:text-xl">
             👋🏻 Hi I’m Federica, 
-            <br/>I’m a woman, an economist turned front-end
+            <br/>I’m a woman, an economist turned full-stack
             developer. 
             <br/>
             <br/>
-            I love cooking, jumping, smiling, singing, travelling,
-            running, designing, cutting, cooking, jumping, smiling, singing,
-            travelling, running, designing, cutting.
+            I love reading, jumping, smiling, singing, travelling,
+            running, designing, cutting, cooking, coding, learning, discovering,
+            playing, swimming, listening, creating.
             <br/>
             <br/> When I’m not learning or
             coding, I’m developing my next pasta recipe.
