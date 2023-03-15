@@ -75,7 +75,7 @@ function Work() {
         <Card
           appType={"Personal Website"}
           appName={"Portfolio"}
-          description={"A little bit about me & collection of my work."}
+          description={"A showcase of my skills and passion in the world of software development and UX Design."}
           tech1={"Javascript"}
           tech2={"React.js"}
           tech3={"Next.js"}
