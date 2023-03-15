@@ -57,9 +57,6 @@ function Work() {
          presentation={'https://docs.google.com/presentation/d/1rPdY_OPrYQjvtYrEP4scR4lzHNF2n1iA0jSdg67SD6Y/edit?usp=sharing'}
         />
         <Card
-          href={
-            "https://github.com/SchoolOfCode/bc13_w12d5_hackathon_react-typescript-rica-greg-room50"
-          }
           appType={"Website"}
           appName={"Weather Checker"}
           description={
