@@ -69,8 +69,8 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                   <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
                 </svg>
               </a>}
-              {presentation &&  <a
-                href={presentation}
+              {figma &&  <a
+                href={figma}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
