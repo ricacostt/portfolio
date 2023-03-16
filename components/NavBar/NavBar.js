@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 function NavBar() {
   return (
-    <div style={{position:'sticky', top: '0px'}} className="flex justify-center navbar p-6 xsm:p-10 max-w-screen-xl ml-auto mr-auto bg-bglightopa dark:bg-bgdarkopa
+    <div style={{position:'sticky', top: '0px', zIndex: '999'}} className="flex justify-center navbar p-6 xsm:p-10 max-w-screen-xl ml-auto mr-auto bg-bglightopa dark:bg-bgdarkopa
 ">
   <div className="flex-1">
   
