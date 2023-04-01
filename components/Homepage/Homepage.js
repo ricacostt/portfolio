@@ -47,7 +47,7 @@ function Homepage() {
                 TWITTER
               </button>
             </a>
-            <a href="https://www.dropbox.com/s/j71qp9gj0uu0uo8/FedericaCostantinoCV.pdf?dl=0" target="_blank"
+            <a href="https://www.dropbox.com/s/ym5fiqts87cbs38/FedericaCostantinoCV.pdf?dl=0" target="_blank"
               rel="noopener noreferrer">
               <button
                 type="button"
