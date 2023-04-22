@@ -4,7 +4,7 @@
 
 @layer base{
     body {
-        @apply bg-bglight dark:bg-bgdark ;
+        @apply bg-bglight dark:bg-gradient-to-r from-bgdark to-bgdark2 ;
         
         overscroll-behavior: none;
         /* font-family: 'Hanken Grotesk', sans-serif; */
