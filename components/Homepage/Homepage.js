@@ -14,7 +14,7 @@ function Homepage() {
             </h1>
           </div>
           <div className="flex flex-row flex-wrap gap-5 buttons">
-            <a href="https://github.com/ricacostt" target="_blank"
+            <a ari-label="link to my github page" href="https://github.com/ricacostt" target="_blank"
               rel="noopener noreferrer">
               <button
                 type="button"
@@ -25,7 +25,7 @@ function Homepage() {
                 GITHUB
               </button>
             </a>
-            <a href="https://www.linkedin.com/in/federica-costantino/" target="_blank"
+            <a ari-label="link to my linkedin page" href="https://www.linkedin.com/in/federica-costantino/" target="_blank"
               rel="noopener noreferrer">
               <button
                 type="button"
@@ -36,7 +36,7 @@ function Homepage() {
                 LINKEDIN
               </button>
             </a>
-            <a href="https://twitter.com/ricacostt" target="_blank"
+            <a ari-label="link to my twitter page" href="https://twitter.com/ricacostt" target="_blank"
               rel="noopener noreferrer">
               <button
                 type="button"
@@ -47,7 +47,7 @@ function Homepage() {
                 TWITTER
               </button>
             </a>
-            <a href="https://www.dropbox.com/s/wkwahbhjh4wxud0/FedericaCostantinoCV.pdf?dl=0" target="_blank"
+            <a ari-label="link to my resume in dropbox" href="https://www.dropbox.com/s/wkwahbhjh4wxud0/FedericaCostantinoCV.pdf?dl=0" target="_blank"
               rel="noopener noreferrer">
               <button
                 type="button"
@@ -83,7 +83,7 @@ function Homepage() {
           </p>
         </div>
         <div className="contact text-textlight dark:text-textdark font-bold underline text-base xsm:text-xl hover:text-textaccent dark:hover:text-textaccent">
-          <a href="mailto:ricacostt@gmail.com" target="_blank"
+          <a aria-label="link to my send me an email" href="mailto:ricacostt@gmail.com" target="_blank"
               rel="noopener noreferrer">Get in touch.</a>
         </div>
       </div>
