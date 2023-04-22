@@ -5,9 +5,11 @@
 @layer base{
     body {
         @apply bg-bglight dark:bg-bgdark ;
+        
         overscroll-behavior: none;
         /* font-family: 'Hanken Grotesk', sans-serif; */
 
         font-family: 'Inconsolata', monospace;
     }
 }
+

@@ -49,7 +49,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'stokka': "url('/public/stokka.png)",
+
       }
     },
   },
