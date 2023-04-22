@@ -1,7 +1,7 @@
 import React from "react";
 import Work from "../Work/Work";
-import Link from "next/link";
 import Footer from "../Footer/Footer";
+import Button from "../Button/Button";
 
 function Homepage() {
   return (
@@ -14,52 +14,12 @@ function Homepage() {
             </h1>
           </div>
           <div className="flex flex-row flex-wrap gap-5 buttons">
-            <a ari-label="link to my github page" href="https://github.com/ricacostt" target="_blank"
-              rel="noopener noreferrer">
-              <button
-                type="button"
-                className=" text-buttontextlight dark:text-textdark bg-buttonsecondarylight 
-                dark:bg-buttonsecondarydark text-xsm tracking-normal font-bold pr-2 pl-2 pt-1 pb-1 rounded-3xl
-  sm:text-sm sm:tracking-wider"
-              >
-                GITHUB
-              </button>
-            </a>
-            <a ari-label="link to my linkedin page" href="https://www.linkedin.com/in/federica-costantino/" target="_blank"
-              rel="noopener noreferrer">
-              <button
-                type="button"
-                className=" text-buttontextlight dark:text-textdark bg-buttonsecondarylight 
-                dark:bg-buttonsecondarydark text-xsm tracking-normal font-bold pr-2 pl-2 pt-1 pb-1 rounded-3xl
-  sm:text-sm sm:tracking-wider"
-              >
-                LINKEDIN
-              </button>
-            </a>
-            <a ari-label="link to my twitter page" href="https://twitter.com/ricacostt" target="_blank"
-              rel="noopener noreferrer">
-              <button
-                type="button"
-                className=" text-buttontextlight dark:text-textdark bg-buttonsecondarylight 
-                dark:bg-buttonsecondarydark text-xsm tracking-normal font-bold pr-2 pl-2 pt-1 pb-1 rounded-3xl
-  sm:text-sm sm:tracking-wider"
-              >
-                TWITTER
-              </button>
-            </a>
-            <a ari-label="link to my resume in dropbox" href="https://www.dropbox.com/s/wkwahbhjh4wxud0/FedericaCostantinoCV.pdf?dl=0" target="_blank"
-              rel="noopener noreferrer">
-              <button
-                type="button"
-                className="text-buttonsecondarylight dark:text-bgdark bg-buttonprimarylight 
-                dark:bg-buttonprimarydark
-                text-xsm tracking-normal font-bold pr-2 pl-2 pt-1 pb-1 rounded-full
-       sm:text-sm sm:tracking-wider"
-              >
-                RESUME
-              </button>
-            </a>
-           
+
+<Button text={'GITHUB'} href={'https://github.com/ricacostt'} aria={'link to my github page'}/>
+<Button text={'LINKEDIN'} href={'https://www.linkedin.com/in/federica-costantino/'} aria={'link to my linkedin page'}/>
+<Button text={'TWITTER'} href={'https://twitter.com/ricacostt'} aria={'link to my twitter page'}/>
+<Button text={'RESUME'} href={'https://www.dropbox.com/s/wkwahbhjh4wxud0/FedericaCostantinoCV.pdf?dl=0'} aria={'link to my resume on dropbox'}/>
+
         {/* <div>
   <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/ricacostt"><img src="https://www.codewars.com/users/ricacostt/badges/micro" alt="codewars badge micro" /></a>
 
