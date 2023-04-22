@@ -20,7 +20,7 @@ module.exports = {
       textaccent: '#f57dff',
 
       bgdark: "#00243d",
-      bgdark2: "#735971",
+      bgdark2: "#513E4F",
       bgdarkopa: 'rgba(22,36,64,0.9)',
       bgcard: '#111D33',
       textdark: "#f5f9ff",

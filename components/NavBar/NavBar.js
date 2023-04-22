@@ -1,7 +1,7 @@
 import React from 'react'
 import ToggleButton from '../ToggleButton/ToggleButton'
 import Link from "next/link";
-import Image from 'next/image';
+// import Image from 'next/image';
 
 
 function NavBar() {

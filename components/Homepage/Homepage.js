@@ -6,11 +6,13 @@ import Button from "../Button/Button";
 function Homepage() {
   return (
     <>
-      <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-4">
+      <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-10">
         <div className="leftcol flex flex-col gap-4 md:gap-8 mb-8 ">
           <div className="cit flex">
             <h1 className="text-textlight dark:text-textdark text-xl xsm:text-3xl italic ">
-              &quot;But the eyes are blind. One must look with the heart.&quot;
+            {/* I love reading, travelling, designing, cooking, coding, learning, playing, swimming, listening, creating. */}
+            When I’m not learning or
+            coding, I’m developing my next pasta recipe.
             </h1>
           </div>
           <div className="flex flex-row flex-wrap gap-5 buttons">
@@ -29,17 +31,16 @@ function Homepage() {
       <div className="rightcol flex flex-col gap-10">
         <div className="about">
           <p className="text-textlight dark:text-textdark text-base xsm:text-xl">
-            👋🏻 Hi I’m Federica, 
-            <br/>I’m a woman, an economist turned full-stack
-            developer. 
+            👋🏻 Hi I’m Federica,
+            <br/>  I&apos;m a woman, an economist turned<span className="text-textaccent"> full-stack
+            developer</span>.
             <br/>
             <br/>
-            I love reading, jumping, smiling, singing, travelling,
-            running, designing, cutting, cooking, coding, learning, discovering,
-            playing, swimming, listening, creating.
+            I love nothing more than bringing ideas to life through coding and creativity.
+            <br/> 
+            My journey into development started last summer when I decided to take the plunge and enroll in a full-stack development bootcamp. Let&apos;s just say, I didn&apos;t look back. Now, I&apos;m on the hunt for my first role in tech, ready to take on whatever challenges come my way.
             <br/>
-            <br/> When I’m not learning or
-            coding, I’m developing my next pasta recipe.
+            <br/> 
           </p>
         </div>
         <div className="contact text-textlight dark:text-textdark font-bold underline text-base xsm:text-xl hover:text-textaccent dark:hover:text-textaccent">
