@@ -4,23 +4,10 @@
 
 @layer base{
     body {
-        @apply bg-white dark:bg-bgdark 
+        @apply bg-white dark:bg-bgdark ;
+        overscroll-behavior: none;
+        font-family: 'Hanken Grotesk', sans-serif;
+
 
     }
-}
-
-body{
-    /* height: 100vh;
-    width: 100vw; */
-    font-family: 'Hanken Grotesk', sans-serif;
-    /* padding: 0.5rem 2rem; */
-    /* background-size: 126px;
-  background-image:
-    linear-gradient(to right, rgba(40,60,189,0.1) 1px, transparent 1px),
-    linear-gradient(to bottom,rgba(40,60,189,0.1), transparent 1px); */
-    
-     /* background: linear-gradient(90deg, rgb(246, 246, 246) 4%, transparent 6%) 1px 0, #fff;
-        background-size: 200px 1px; */
-    
-
 }
