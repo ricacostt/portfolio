@@ -23,6 +23,7 @@ function Homepage() {
 <Button text={'GITHUB'} href={'https://github.com/ricacostt'} aria={'link to my github page'}/>
 <Button text={'LINKEDIN'} href={'https://www.linkedin.com/in/federica-costantino/'} aria={'link to my linkedin page'}/>
 <Button text={'TWITTER'} href={'https://twitter.com/ricacostt'} aria={'link to my twitter page'}/>
+<Button text={'CODEWARS'} href={'https://www.codewars.com/users/ricacostt'} aria={'link to my codewars page'}/>
 <Button text={'RESUME'} href={'https://www.dropbox.com/s/wkwahbhjh4wxud0/FedericaCostantinoCV.pdf?dl=0'} aria={'link to my resume on dropbox'}/>
 
         {/* <div>
