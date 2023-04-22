@@ -7,12 +7,12 @@ function Footer() {
       <footer className="p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto bg-bglight dark:bg-bgdark md:flex md:items-center md:justify-between text-textlight dark:text-textdark">
         <p className="text-sm sm:text-center">
           © 2023 |{" "}
-          <span className="text-buttontextlight dark:text-textaccent">
+          <span className="text-textaccent dark:text-textaccent">
             Federica Costantino
           </span>
         </p>
         <ul className="flex flex-wrap items-center mt-3 text-sm sm:mt-0 ">
-          <li className="hover:text-buttontextlight dark:hover:text-textaccent">
+          <li className="hover:text-textaccent dark:hover:text-textaccent">
             <a
               aria-label="link to my github page"
               href="https://github.com/ricacostt"
@@ -23,7 +23,7 @@ function Footer() {
               Github
             </a>
           </li>
-          <li className="hover:text-buttontextlight dark:hover:text-textaccent">
+          <li className="hover:text-textaccent dark:hover:text-textaccent">
             <a
               aria-label="link to my linkedin page"
               href="https://www.linkedin.com/in/federica-costantino/"
@@ -34,7 +34,7 @@ function Footer() {
               Linkedin
             </a>
           </li>
-          <li className="hover:text-buttontextlight dark:hover:text-textaccent">
+          <li className="hover:text-textaccent dark:hover:text-textaccent">
             <a
               aria-label="link to my twitter page"
               href="https://twitter.com/ricacostt"
@@ -45,7 +45,7 @@ function Footer() {
               Twitter
             </a>
           </li>
-          <li className="hover:text-buttontextlight dark:hover:text-textaccent">
+          <li className="hover:text-textaccent dark:hover:text-textaccent">
             <a
               aria-label="link to send me an email"
               href="mailto:ricacostt@gmail.com"

@@ -15,7 +15,7 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
         <span className="text-buttontextlight dark:text-textaccent">
                 {appType}
               </span>
-              <h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-buttontextlight dark:hover:text-textaccent">
+              <h2 className="text-2xl font-semibold tracking-tight  dark:text-textdark text-textlight hover:text-textaccent dark:hover:text-textaccent">
                 {appName}
               </h2>
         </a>
@@ -24,7 +24,7 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
             </p>
             <div className="flex flex-row flex-wrap text-xsm gap-2 pb-4 text-textlight dark:text-textdark">
               <a aria-label="Read more about the API"
-                className="hover:underline hover:text-buttontextlight dark:hover:text-textaccent"
+                className="hover:underline hover:text-textaccent dark:hover:text-textaccent"
                 href={hrefAPI}
               >
                 <p>{techAPI}</p>
@@ -41,7 +41,7 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                 href={github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
+                className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-textaccent dark:hover:text-textaccent hover:stroke-textaccent dark:hover:stroke-textaccent"
               >
                 Discover
                 <VscGithubAlt
@@ -53,7 +53,7 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttontextlight dark:hover:text-textaccent"
+                className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-textaccent dark:hover:text-textaccent"
               >
                 Live Demo
                 <FiExternalLink
@@ -64,7 +64,7 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                 href={figma}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
+                className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-textaccent dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
               >
                 Lo-fi Prototype
                 <FaFigma className="w-5 h-5 ml-2 feather feather-figma" />
@@ -73,10 +73,10 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                 href={presentation}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
+                className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-textaccent dark:hover:text-textaccent hover:stroke-textaccent dark:hover:stroke-textaccent"
               >
                 Read More
-               <BsDisplay className='ml-2 w-5 h-5 stroke-textlight dark:stroke-textdark  hover:stroke-buttontextlight dark:hover:stroke-textaccent'/>
+               <BsDisplay className='ml-2 w-5 h-5 stroke-textlight dark:stroke-textdark  hover:stroke-textaccent dark:hover:stroke-textaccent'/>
               </a>}
             </div>
       </div>
