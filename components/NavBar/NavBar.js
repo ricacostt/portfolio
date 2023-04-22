@@ -1,7 +1,7 @@
 import React from 'react'
 import ToggleButton from '../ToggleButton/ToggleButton'
 import Link from "next/link";
-// import Image from 'next/image';
+import Image from 'next/image';
 
 
 function NavBar() {
@@ -10,7 +10,7 @@ function NavBar() {
 ">
   <div className="flex-1">
   
-    {/* <Image className='w-6 h-6 xsm:w-8 xsm:h-8' src='/logotondo.svg' alt='logo' width='25' height='20'/> */}
+    <Image className='w-6 h-6 xsm:w-10 xsm:h-10' src='/fedepixel.svg' alt='logo' width='25' height='20'/>
 
     <Link href='' className="text-sm xsm:text-xl text-textlight dark:text-textdark">federicacostantino</Link>
   </div>

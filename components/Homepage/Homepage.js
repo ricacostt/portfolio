@@ -2,17 +2,20 @@ import React from "react";
 import Work from "../Work/Work";
 import Footer from "../Footer/Footer";
 import Button from "../Button/Button";
+import Image from "next/image";
 
 function Homepage() {
   return (
     <>
       <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-10">
         <div className="leftcol flex flex-col gap-4 md:gap-8 mb-8 ">
+          {/* <Image className="w-16" src='fedepixel.svg' width='96' height='96'/> */}
           <div className="cit flex">
             <h1 className="text-textlight dark:text-textdark text-xl xsm:text-3xl italic ">
             {/* I love reading, travelling, designing, cooking, coding, learning, playing, swimming, listening, creating. */}
-            When I’m not learning or
-            coding, I’m developing my next pasta recipe.
+            
+            &quot;When I am not coding or
+            learning, I am developing my next pasta recipe.&quot;
             </h1>
           </div>
           <div className="flex flex-row flex-wrap gap-5 buttons">
