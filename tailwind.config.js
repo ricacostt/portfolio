@@ -13,19 +13,21 @@ module.exports = {
     colors: {
       bglight: "#ffffff",
       bglightopa: 'rgba(255,255,255,0.9)',
-      bgdark: "#162440",
+      textlight: "#0B4F6C",
+      buttonprimarylight: "#f57dff",
+      buttontextlight: "#1c4396",
+
+      textaccent: '#f57dff',
+
+      bgdark: "#00243d",
+      bgdark2: "#513E4F",
       bgdarkopa: 'rgba(22,36,64,0.9)',
       bgcard: '#111D33',
-      textlight: "#46465A",
-      textdark: "#E3EBF3",
-      buttonprimarylight: "#313CBD",
-      buttontextlight: "#1C4396",
+      textdark: "#f5f9ff",
       buttonsecondarylight: "#F5F9FF",
       buttonprimarydark: "#E3EBF3",
       buttontextdark: "#E3EBF3",
-      buttonsecondarydark: "#535B8B",
-      cardbgdark: "rgba(79,179,141,0.1)",
-      textaccent: '#4A79D9'
+      buttonsecondarydark: "#8789c0"
     },
   screens: {
   'xsm': "498px",

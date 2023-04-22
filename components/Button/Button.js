@@ -5,8 +5,8 @@ function Button({ text, href, aria }) {
     <div className="containe flex">
       <a aria-label={aria} href={href} target="_blank" rel="noopener noreferrer">
       
-{text === 'RESUME' ? <button type='button' className="text-buttonsecondarylight dark:text-bgdark bg-buttonprimarylight 
-                dark:bg-buttonprimarydark
+{text === 'RESUME' ? <button type='button' className="text-buttonsecondarylight  bg-buttonprimarylight 
+                
                 text-sm font-bold px-3 py-1 rounded-full
        tracking-widest">{text}</button> : <button
           type="button"
