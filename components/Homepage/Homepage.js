@@ -59,29 +59,9 @@ function Homepage() {
                 RESUME
               </button>
             </a>
-           
-            {/* <Link href="#work" >
-              <button
-                type="button"
-                className=" text-buttonsecondarylight dark:text-bgdark bg-buttonprimarylight 
-                dark:bg-buttonprimarydark
-                text-xsm tracking-normal font-bold pr-2 pl-2 pt-1 pb-1 rounded-full
-       sm:text-sm sm:tracking-wider"
-              >
-                WORK.
-              </button>
-            </Link> */}
-            {/* <a href="https://www.dropbox.com/s/j71qp9gj0uu0uo8/FedericaCostantinoCV.pdf?dl=0" target="_blank"
-              rel="noopener noreferrer">
-              <button
-                type="button"
-                className=" text-buttontextlight dark:text-textdark border-2 border-buttonprimarylight
-                dark:border-buttonprimarydark text-xsm tracking-normal font-bold pr-2 pl-2 pt-1 pb-1 rounded-3xl
-  sm:text-sm sm:tracking-wider"
-              >
-                RESUME
-              </button>
-            </a> */}
+            {/* <div className="flex">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/ricacostt"><img src="https://www.codewars.com/users/ricacostt/badges/micro" alt="codewars badge micro" /></a>
+            </div> */}
           </div>
         </div>
       <div className="rightcol flex flex-col gap-10">
