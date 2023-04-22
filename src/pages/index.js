@@ -18,12 +18,12 @@ export default function Home() {
       </Head>
  
       <main >
-       <div class='container'>
+       <div className='container'>
 
 </div>
         <NavBar/>
         <Homepage/>
-        <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script>
+        {/* <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script> */}
   
       </main>
       

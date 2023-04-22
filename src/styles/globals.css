@@ -4,7 +4,7 @@
 
 @layer base{
     body {
-        @apply bg-white dark:bg-bgdark ;
+        @apply bg-bglight dark:bg-bgdark ;
         overscroll-behavior: none;
         font-family: 'Hanken Grotesk', sans-serif;
 
