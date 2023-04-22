@@ -1,6 +1,5 @@
 import React from "react";
 import { useTheme } from "next-themes";
-import { IconName } from "react-icons/bs";
 
 import { BsToggle2On, BsToggle2Off } from 'react-icons/bs';
 
@@ -12,16 +11,18 @@ const ToggleButton = () => {
     if (currentTheme === 'dark'){
     return (
       <>
-      <BsToggle2On className='w-8 h-6 z-40' role='button'  onClick={()=>setTheme('light')}/>
        <span className="hidden md:block ml-3 text-sm font-medium text-textlight dark:text-textdark">switch me off</span>
+      <BsToggle2On className='w-8 h-6 z-40' role='button'  onClick={()=>setTheme('light')}/>
+      
        </>
       )
     }
     else {
       return (
         <>
+         <span className="hidden md:block ml-3 text-sm font-medium text-textlight dark:text-textdark">switch me on</span>
         <BsToggle2Off className='w-6 h-6 z-40' role='button' onClick={()=>setTheme('dark')}/>
-        <span className="hidden md:block ml-3 text-sm font-medium text-textlight dark:text-textdark">switch me on</span>
+       
         </>
       )
     }

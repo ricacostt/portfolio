@@ -1,4 +1,11 @@
 import React from 'react'
+import { BsDisplay } from "react-icons/bs";
+import { VscGithubAlt } from "react-icons/vsc";
+import { FaFigma } from "react-icons/fa";
+import {FiExternalLink} from "react-icons/fi"
+
+
+
 
 function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3, tech4, tech5, tech6, techAPI, github, figma, presentation}) {
   return (
@@ -37,19 +44,9 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                 className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
               >
                 Discover
-                <svg
-                  className="feather feather-github w-5 h-5 ml-2 stroke-textlight dark:stroke-textdark  hover:stroke-buttontextlight dark:hover:stroke-textaccent"
-                  xmlns="http://www.w3.org/2000/svg"
-                  // width="20"
-                  // height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                </svg>
+                <VscGithubAlt
+                  className=" w-5 h-5 ml-2 stroke-textlight dark:stroke-textdark  hover:stroke-buttontextlight dark:hover:stroke-textaccent"/>
+                 
               </a>}
            
           {href &&  <a
@@ -59,15 +56,9 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                 className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base hover:text-buttontextlight dark:hover:text-textaccent"
               >
                 Live Demo
-                <svg
-                  className="w-5 h-5 ml-2"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
-                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
-                </svg>
+                <FiExternalLink
+                  className="w-5 h-5 ml-2"/>
+                  
               </a>}
               {figma &&  <a
                 href={figma}
@@ -76,7 +67,7 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                 className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
               >
                 Lo-fi Prototype
-                <svg className="w-5 h-5 ml-2 feather feather-figma" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path></svg>
+                <FaFigma className="w-5 h-5 ml-2 feather feather-figma" />
               </a>}
               {presentation &&  <a
                 href={presentation}
@@ -85,7 +76,7 @@ function Card({href, hrefAPI, appType, appName, description, tech1, tech2, tech3
                 className="inline-flex items-center text-textlight dark:text-textdark hover:underline text-base stroke-textlight  dark:stroke-textdark hover:text-buttontextlight dark:hover:text-textaccent hover:stroke-buttontextlight dark:hover:stroke-textaccent"
               >
                 Learn More
-                <svg className="w-5 h-5 ml-2 feather feather-monitor" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+               <BsDisplay className='ml-2 w-5 h-5 stroke-textlight dark:stroke-textdark  hover:stroke-buttontextlight dark:hover:stroke-textaccent'/>
               </a>}
             </div>
       </div>
