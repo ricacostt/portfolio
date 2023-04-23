@@ -8,15 +8,18 @@ function Homepage() {
   return (
     <>
       <div className="md:flex md:flex-row p-6 xsm:p-10 max-w-screen-xl mr-auto ml-auto gap-10">
-        <div className="leftcol flex flex-col gap-4 md:gap-8 mb-8 ">
+        <div className="leftcol flex flex-col max-w-md gap-4 md:gap-8 mb-8 ">
           {/* <Image className="w-16" src='fedepixel.svg' width='96' height='96'/> */}
-          <div className="cit flex">
+          <div className="cit flex flex-col">
             <h1 className="text-textlight dark:text-textdark text-xl xsm:text-3xl italic ">
             {/* I love reading, travelling, designing, cooking, coding, learning, playing, swimming, listening, creating. */}
             
-            &quot;When I am not coding or
-            learning, I am developing my next pasta recipe.&quot;
+           
+           &quot;I code Monday to Friday, sometimes on weekends, others at night and occasionally in my dreams.&quot;
+            
+            
             </h1>
+         {/* <p className="text-base"> But don&apos;t worry; I still find time to indulge my other passions like reading, designing, swimming, cooking, travelling and playing.</p> */}
           </div>
           <div className="flex flex-row flex-wrap gap-5 buttons">
 
@@ -42,9 +45,11 @@ function Homepage() {
             <br/>
             I love nothing more than bringing ideas to life through coding and creativity.
             <br/> 
-            My journey into development started last summer when I decided to take the plunge and enroll in a full-stack development bootcamp. Let&apos;s just say, I didn&apos;t look back. Now, I&apos;m on the hunt for my first role in tech, ready to take on whatever challenges come my way.
             <br/>
-            <br/> 
+            My journey into development started last summer when I decided to take the plunge and enroll in a full-stack development bootcamp. Let&apos;s just say, I didn&apos;t look back. 
+            <br/> <br/> Now, I&apos;m on the hunt for my first role in tech, ready to take on whatever challenges come my way.
+           
+             
           </p>
         </div>
         <div className="contact text-textlight dark:text-textdark font-bold underline text-base xsm:text-xl hover:text-textaccent dark:hover:text-textaccent">
