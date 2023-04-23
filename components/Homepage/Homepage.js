@@ -15,7 +15,7 @@ function Homepage() {
             {/* I love reading, travelling, designing, cooking, coding, learning, playing, swimming, listening, creating. */}
             
            
-           &quot;I code Monday to Friday, sometimes on weekends, others at night and occasionally in my dreams.&quot;
+           &quot;I code Monday to Friday, sometimes on weekends, at night and occasionally in my dreams.&quot;
             
             
             </h1>
