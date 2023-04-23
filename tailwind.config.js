@@ -22,7 +22,7 @@ module.exports = {
       bgdark: "#00243d",
       bgdark2: "#00243d ",
       bgdarkopa: 'rgba(22,36,64,0.9)',
-      bgcard: '#001829',
+      bgcard: '#122e45 ',
       textdark: "#f5f9ff",
       buttonsecondarylight: "#F5F9FF",
       buttonprimarydark: "#E3EBF3",
