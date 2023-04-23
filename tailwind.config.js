@@ -20,9 +20,9 @@ module.exports = {
       textaccent: '#f57dff',
 
       bgdark: "#00243d",
-      bgdark2: "#513E4F",
+      bgdark2: "#002D3D",
       bgdarkopa: 'rgba(22,36,64,0.9)',
-      bgcard: '#111D33',
+      bgcard: '#001829',
       textdark: "#f5f9ff",
       buttonsecondarylight: "#F5F9FF",
       buttonprimarydark: "#E3EBF3",
