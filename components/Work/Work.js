@@ -72,6 +72,17 @@ function Work() {
             "https://github.com/SchoolOfCode/bc13_w12d5_hackathon_react-typescript-rica-greg-room50"
           }
         />
+         <Card
+          appType={"Game"}
+          appName={"Tic-Tac-Toe"}
+          description={
+            "My first Python project: a tic-tac-toe game that allows you to customize the board size."
+          }
+          tech1={"Python"}
+          github={
+            "https://github.com/ricacostt/tic-tac-toe"
+          }
+        />
         <Card
           appType={"Personal Website"}
           appName={"Portfolio"}
@@ -89,7 +100,7 @@ function Work() {
         description={
           "A fast news website that includes a collection of the current trending news in english, from all over the world and of all categories. The search bar allows you to search for news items of interest to you, just enter a keyword (ex. India) to receive all the news items where that keyword is present."
         }
-        techApi={"GNews API"}
+        techAPI={"GNews API"}
         hrefAPI={"https://gnews.io/"}
         tech1={"Javascript"}
         tech2={"React.js"}
