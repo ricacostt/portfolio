@@ -93,7 +93,7 @@ function Work() {
           tech4={"TailwindCSS"}
           github={"https://github.com/ricacostt/portfolio"}
         />
-      <Card
+      {/* <Card
         href={"https://news-ricacostt.netlify.app/"}
         appType={"Website"}
         appName={"Fast News"}
@@ -106,7 +106,7 @@ function Work() {
         tech2={"React.js"}
         tech3={"TailwindCSS"}
         github={"https://news-ricacostt.netlify.app/"}
-      />
+      /> */}
       </div>
     </div>
   );
