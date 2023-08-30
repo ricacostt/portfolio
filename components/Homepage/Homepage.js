@@ -47,7 +47,7 @@ function Homepage() {
             <br/> 
             <br/>
             My journey into development started last summer when I decided to take the plunge and enroll in a full-stack development bootcamp. Let&apos;s just say, I didn&apos;t look back. 
-            <br/> <br/> Now, I&apos;m on the hunt for my first role in tech, ready to take on whatever challenges come.
+            <br/> <br/> Now, I&apos;m on the hunt for my first role in tech, ready to take on whatever challenges come my way.
            
              
           </p>
