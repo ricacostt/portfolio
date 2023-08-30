@@ -27,7 +27,7 @@ function Homepage() {
 <Button text={'LINKEDIN'} href={'https://www.linkedin.com/in/federica-costantino/'} aria={'link to my linkedin page'}/>
 <Button text={'TWITTER'} href={'https://twitter.com/ricacostt'} aria={'link to my twitter page'}/>
 <Button text={'CODEWARS'} href={'https://www.codewars.com/users/ricacostt'} aria={'link to my codewars page'}/>
-<Button text={'RESUME'} href={'https://www.dropbox.com/s/wkwahbhjh4wxud0/FedericaCostantinoCV.pdf?dl=0'} aria={'link to my resume on dropbox'}/>
+<Button text={'RESUME'} href={'https://www.dropbox.com/scl/fi/64vp2k2eiksh3q2udctt9/FedericaCostantinoCV.pdf?rlkey=8ls07zbtgl0xw4ruqe307m494&dl=0'} aria={'link to my resume on dropbox'}/>
 
         {/* <div>
   <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/ricacostt"><img src="https://www.codewars.com/users/ricacostt/badges/micro" alt="codewars badge micro" /></a>
