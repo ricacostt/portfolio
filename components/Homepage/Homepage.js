@@ -15,7 +15,7 @@ function Homepage() {
             {/* I love reading, travelling, designing, cooking, coding, learning, playing, swimming, listening, creating. */}
             
            
-           &quot;I code Monday to Friday, sometimes on weekends, at night and occasionally in my dreams.&quot;
+           &quot;I code Monday to Friday and occasionally in my dreams.  I am a globetrotter, yogi, kung fu artist, and tennis enthusiast.&quot; 
             
             
             </h1>
@@ -27,7 +27,7 @@ function Homepage() {
 <Button text={'LINKEDIN'} href={'https://www.linkedin.com/in/federica-costantino/'} aria={'link to my linkedin page'}/>
 <Button text={'TWITTER'} href={'https://twitter.com/ricacostt'} aria={'link to my twitter page'}/>
 <Button text={'CODEWARS'} href={'https://www.codewars.com/users/ricacostt'} aria={'link to my codewars page'}/>
-<Button text={'RESUME'} href={'https://www.dropbox.com/scl/fi/64vp2k2eiksh3q2udctt9/FedericaCostantinoCV.pdf?rlkey=8ls07zbtgl0xw4ruqe307m494&dl=0'} aria={'link to my resume on dropbox'}/>
+<Button text={'RESUME'} href={'https://www.dropbox.com/scl/fi/gaoq6iduizuf1a9cimn4r/FedericaCostantinoCV.pdf?rlkey=5tvqza3eb3efaypsqgo2ewzsx&dl=0'} aria={'link to my resume on dropbox'}/>
 
         {/* <div>
   <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/ricacostt"><img src="https://www.codewars.com/users/ricacostt/badges/micro" alt="codewars badge micro" /></a>
@@ -39,15 +39,14 @@ function Homepage() {
         <div className="about">
           <p className="text-textlight dark:text-textdark text-base xsm:text-xl">
             👋🏻 Hi I’m Federica,
-            <br/>  I&apos;m a woman, an economist turned<span className="text-textaccent"> full-stack
-            developer</span>.
+            <br/>  I&apos;m a woman, an economist turned<span className="text-textaccent"> Software Engineer</span> currently working at <a className="underline" aria-label="link to ADP main page" target="_blank"
+              rel="noopener noreferrer" href="https://uk.adp.com/">ADP</a>.
             <br/>
             <br/>
             I love nothing more than bringing ideas to life through coding and creativity.
             <br/> 
             <br/>
             My journey into development started last summer when I decided to take the plunge and enroll in a full-stack development bootcamp. Let&apos;s just say, I didn&apos;t look back. 
-            <br/> <br/> Now, I&apos;m on the hunt for my first role in tech, ready to take on whatever challenges come my way.
            
              
           </p>
